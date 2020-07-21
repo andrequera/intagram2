@@ -1,0 +1,108 @@
+body {
+  margin : 0px 0px 0px 0px;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  font-family: 'Shadows Into Light', cursive;
+  
+}
+#menu {
+  background-color:white;
+  padding: 10px; 
+/* me movio el menu para arriba pegadito */
+}
+
+#menu h1{
+width: 50%;
+margin: 0 auto;
+/* Lo esstoy colocando en referencia a contenido que y esta listo */
+font-weight: bolder;
+
+}
+#contenido {
+  background-color:white;
+  width:30%;
+  height: 100%;
+  margin: 50px auto;
+ 
+      
+
+  /* text-align: center;
+  para centrar el contenido o texto dentro del contenido */
+
+}
+
+img{
+  display: inline-block;
+  height: 60%;
+  width: 100%;
+  /* toma el 100 % de contenido */
+  
+}
+
+/* .menuifoto{
+text-align: center;    
+} */
+/* Me centra el texto dentro de mi contenido */
+
+.menuifoto{
+  /* padding: 10px; */
+  font-weight: bolder;
+  display: inline;
+}
+
+.fotico {
+  float: left;
+  width: 10% ;
+  padding: 15px 0px 0px 15px;
+  }
+  
+  .ubicacion{
+    width: 80%;
+    float: left;
+  }
+
+  .ubicacion h2{
+    font-size: 0.9rem;
+  }
+  
+  .punticos {
+    float: right;
+    width: 5%;
+    padding-top: 15px;
+    
+    }
+    
+
+.menuafoto h3{
+  padding-top: 50px;
+padding-left: 15px;
+font-size: 1rem;
+}
+.menua2foto h3{
+  padding-top: 10px;
+padding-left: 15px;
+padding-right: 15px;
+font-size: 0.8rem;
+/* letra mas pequena */
+text-align: justify;
+/* justificar letra */
+}
+
+
+.cajainferior{
+display: inline;
+
+}
+
+.iconosabajoizquierda{
+float: left;  
+padding-top: 15px;
+padding-left: 15px;
+}
+
+.iconosabajoderecha{
+ float: right;
+ padding-top: 15px;
+ padding-right: 15px;
+}
